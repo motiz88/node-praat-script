@@ -10,7 +10,7 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 npm install praat-script --save
 ```
 
-To actually run scripts, you will need Praat. [node-praat](http://www.fon.hum.uva.nl/praat) (`npm install praat`) is one easy way to install it in a Node application. `praat` is an optional dependency of `praat-script` and is required for the `.run()` convenience method to function correctly.
+To actually run scripts, you will need Praat. [node-praat](https://github.com/motiz88/node-praat) (`npm install praat`) is one easy way to install it in a Node application. `praat` is an optional dependency of `praat-script` and is required for the `.run()` convenience method to function correctly.
 
 ## Usage
 
