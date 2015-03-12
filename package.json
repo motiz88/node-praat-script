@@ -1,0 +1,31 @@
+{
+  "name": "praat-script",
+  "version": "0.1.0",
+  "description": "Generate and run Praat scripts from Node.js.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "node_modules/.bin/traceur --modules commonjs --dir src dist --source-maps",
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motiz88/node-praat-script"
+  },
+  "author": "Moti Zilberman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motiz88/node-praat-script/issues"
+  },
+  "homepage": "https://github.com/motiz88/node-praat-script",
+  "dependencies": {
+    "tmp": "0.0.25"
+  },
+  "optionalDependencies": {
+    "praat": "^5.4.6-5"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "mocha-traceur": "^2.1.0",
+    "traceur": "0.0.87"
+  }
+}

@@ -1,0 +1,1924 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"videoFile",
+				"videoFileName"
+			],
+			[
+				"workDir",
+				"workDirDisposable"
+			],
+			[
+				"clean",
+				"cleanupTempDir"
+			],
+			[
+				"VideoC",
+				"VideoCreatorActions"
+			],
+			[
+				"Cu",
+				"CurrentVideoStore"
+			],
+			[
+				"enclo",
+				"EnclosedMinimized"
+			],
+			[
+				"Expanda",
+				"ExpandableEnclosure"
+			],
+			[
+				"Exp",
+				"ExpandableEnclosure"
+			],
+			[
+				"Class",
+				"classOf"
+			],
+			[
+				"StyleCon",
+				"StyleConstants"
+			],
+			[
+				"Enclo",
+				"EnclosedChildren"
+			],
+			[
+				"React",
+				"React.class	Object Value JS"
+			],
+			[
+				"acapela_",
+				"acapela_voices"
+			],
+			[
+				"comp",
+				"componentWillUnmount	Life Cycle Method"
+			],
+			[
+				"prop",
+				"prototype"
+			],
+			[
+				"playB",
+				"playButtonOverlay"
+			],
+			[
+				"react",
+				"reactView"
+			],
+			[
+				"dropd-w",
+				"dropdown-new-height"
+			],
+			[
+				"_handleBgColor",
+				"_handleBgColorChange"
+			],
+			[
+				"_handle",
+				"_handleChanging"
+			],
+			[
+				"spectrum",
+				"spectrumTransferableProps"
+			],
+			[
+				"cw",
+				"componentWillReceiveProps	Life Cycle Method"
+			],
+			[
+				"ColorPicker_prop",
+				"ColorPicker_propTypes"
+			],
+			[
+				"propt",
+				"React.PropTypes.number"
+			],
+			[
+				"s",
+				"React.PropTypes.string"
+			],
+			[
+				"cdm",
+				"cdm	React: componentDidMount: fn() { ... }"
+			],
+			[
+				"box",
+				"padding-box"
+			],
+			[
+				"Pr",
+				"PrettyChordItem"
+			],
+			[
+				"Lyri",
+				"LyricChordChunk"
+			],
+			[
+				"LyricsCho",
+				"LyricsChordsLine"
+			],
+			[
+				"audio",
+				"audioDelayMsec"
+			],
+			[
+				"ffmpeg_stdout",
+				"ffmpeg_stdout_str"
+			],
+			[
+				"exten",
+				"extendedTimeOut"
+			],
+			[
+				"notifi",
+				"notification"
+			],
+			[
+				"upload",
+				"uploadRenderedFileToS3"
+			],
+			[
+				"renderb",
+				"renderBundleToFile"
+			],
+			[
+				"cleanup",
+				"cleanupCallback"
+			],
+			[
+				"phantom",
+				"phantomWorkers"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"render",
+				"rendererState"
+			],
+			[
+				"renderer",
+				"rendererName"
+			],
+			[
+				"_pango",
+				"_pangoContext"
+			],
+			[
+				"HAVE",
+				"HAVE_HARFBUZZ"
+			],
+			[
+				"glyph",
+				"cairo_glyphs"
+			],
+			[
+				"cairo_font",
+				"cairo_font_face_destroy"
+			],
+			[
+				"cairo",
+				"cairo_font_face_reference"
+			],
+			[
+				"WITH_F",
+				"WITH_FREETYPE_FONT_FACE"
+			],
+			[
+				"font_de",
+				"pango_font_description_free"
+			],
+			[
+				"pango_font_d",
+				"pango_font_description_free"
+			],
+			[
+				"Panfo",
+				"PangoFontDescription"
+			],
+			[
+				"hb_b",
+				"hb_buffer_create"
+			],
+			[
+				"restore",
+				"restoreState"
+			],
+			[
+				"Text",
+				"TextRenderer"
+			],
+			[
+				"_context",
+				"_cairoContext"
+			],
+			[
+				"textRen",
+				"textRendererState"
+			],
+			[
+				"textren",
+				"_textRenderer"
+			],
+			[
+				"textRenderer",
+				"_textRenderer"
+			],
+			[
+				"text",
+				"textBaseline"
+			],
+			[
+				"text_dir_t",
+				"text_direction_t"
+			],
+			[
+				"Pan",
+				"PangoTextRenderer"
+			],
+			[
+				"PAngo",
+				"PangoTextRenderer"
+			],
+			[
+				"actual",
+				"actualBoundingBoxAscent"
+			],
+			[
+				"alphab",
+				"alphabeticBaseline"
+			],
+			[
+				"actualB",
+				"actualBoundingBoxLeft"
+			],
+			[
+				"metrics",
+				"metricsOut"
+			],
+			[
+				"CONTEXT2d",
+				"CONTEXT2D_TEXTOP_SET_PATH"
+			],
+			[
+				"context2d",
+				"context2d_text_operation_t"
+			],
+			[
+				"measure",
+				"renderOrMeasureText"
+			],
+			[
+				"font",
+				"fontBoundingBoxDescent"
+			],
+			[
+				"fontBoun",
+				"fontBoundingBoxAscent"
+			],
+			[
+				"actualbound",
+				"actualBoundingBoxLeft"
+			],
+			[
+				"y_offset_baseline",
+				"y_offset_bottomBaseline"
+			],
+			[
+				"PANGO_DIRE",
+				"PANGO_DIRECTION_WEAK_LTR"
+			],
+			[
+				"CONTEXT2D_DI",
+				"CONTEXT2D_DIRECTION_LTR"
+			],
+			[
+				"Canvas",
+				"CanvasRenderingContext2d"
+			],
+			[
+				"context",
+				"context2d_direction_t"
+			],
+			[
+				"CANVAS_DI",
+				"CANVAS_DIRATTR_LTR"
+			],
+			[
+				"CANVAS_DIR",
+				"CANVAS_DIRATTR_UNDEFINED"
+			],
+			[
+				"bundle",
+				"bundleJson"
+			],
+			[
+				"Notification",
+				"NotificationActions"
+			],
+			[
+				"Display",
+				"DisplayObjectContainer"
+			],
+			[
+				"trans",
+				"transformedFile"
+			],
+			[
+				"componentWill",
+				"componentWillReceiveProps	Life Cycle Method"
+			],
+			[
+				"Kinedio",
+				"KinedioAnimationView"
+			],
+			[
+				"_anim",
+				"_animationFrame"
+			],
+			[
+				"_make",
+				"_makeFilterMapFunc"
+			],
+			[
+				"_fil",
+				"_filteredOptions"
+			],
+			[
+				"Re",
+				"React.PropTypes.func"
+			],
+			[
+				"language",
+				"language_desc"
+			],
+			[
+				"_map",
+				"_filterMapFunc"
+			],
+			[
+				"_filter",
+				"_filterMapFunc"
+			],
+			[
+				"langu",
+				"language_desc"
+			],
+			[
+				"lan",
+				"language_locale"
+			],
+			[
+				"clickth",
+				"clickthroughVisible"
+			],
+			[
+				"clickTh",
+				"clickthroughVisible"
+			],
+			[
+				"clickt",
+				"clickthroughVisible"
+			],
+			[
+				"_handleb",
+				"_handleBtnRenderAndDownloadClick"
+			],
+			[
+				"cwr",
+				"componentWillReceiveProps	Life Cycle Method"
+			],
+			[
+				"r",
+				"React.PropTypes.func"
+			],
+			[
+				"rpts",
+				"React.PropTypes.string"
+			],
+			[
+				"st",
+				"React.propTypes.string"
+			],
+			[
+				"LAngu",
+				"LanguagesDropdown"
+			],
+			[
+				"_touch",
+				"_touchMove"
+			],
+			[
+				"_onSlid",
+				"_onSliderTouchStart"
+			],
+			[
+				"onTouch",
+				"onTouchStart"
+			],
+			[
+				"_value",
+				"_calcValue"
+			],
+			[
+				"update",
+				"_updateFromProps"
+			],
+			[
+				"fireEve",
+				"fireEvent_mz"
+			],
+			[
+				"playpo",
+				"playPosition"
+			],
+			[
+				"selec",
+				"selectedFont"
+			],
+			[
+				"g",
+				"gdp	React: getDefaultProps: fn() { return {...} }"
+			],
+			[
+				"Rea",
+				"React.class	Object Value JS"
+			],
+			[
+				"ptf",
+				"React.PropTypes.func.isRequired"
+			],
+			[
+				"cwu",
+				"componentWillUpdate	Life Cycle Method"
+			],
+			[
+				"compo",
+				"componentDidUpdate	Life Cycle Method"
+			],
+			[
+				"R",
+				"React.PropTypes.string"
+			],
+			[
+				"one",
+				"React.PropTypes.oneOfType"
+			],
+			[
+				"rend",
+				"_renderer"
+			],
+			[
+				"full",
+				"full-width-section-content"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/praat-script.js",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/run.js",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Windows",
+				"name": "'use strict';"
+			}
+		},
+		{
+			"file": "test/test.js",
+			"settings":
+			{
+				"buffer_size": 3003,
+				"line_ending": "Windows",
+				"name": "var assert = require(\"assert\")"
+			}
+		},
+		{
+			"file": "test/mocha.opts",
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Windows",
+				"name": "mocha.opts"
+			}
+		},
+		{
+			"file": "src/format-argument.js",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/run-with.js",
+			"settings":
+			{
+				"buffer_size": 2510,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "module.exports =\nPraatScript.run = function(script, cb) {\n    if (!cb)\n        cb = function() {};\n    tmp.file({\n            keep: true\n        },\n        function _tempFileCreated(err, path, fd) {\n            try {\n                var cleanupCallback = function() {\n                    try {\n                        fs.closeSync(fd);\n                    } catch (e) {}\n                    fs.unlink(path);\n                };\n                if (err) throw err;\n                fs.write(fd, script, 0, 'utf8', function(err) {\n                    try {\n                        if (err) throw err;\n                        fs.close(fd, function(err) {\n                            try {\n                                if (err) throw err;\n                                var stdout = '';\n                                var stderr = '';\n                                var praat = child_process.spawn(require('praat'), [path], {\n                                    stdio: ['ignore', 'ignore', 'ignore']\n                                });\n                                praat.on('close', function(err) {\n                                    try {\n                                        if (err) throw err;\n                                        if (stderr && stderr.length > 0)\n                                            throw new Error(stderr.toString('utf8'));\n                                        cleanupCallback();\n                                        cb();\n                                    } catch (e) {\n                                        cleanupCallback();\n                                        cb(e);\n                                    }\n                                });\n                            } catch (e) {\n                                cleanupCallback();\n                                cb(e);\n                            }\n                        });\n                    } catch (e) {\n                        cleanupCallback();\n                        cb(e);\n                    }\n                });\n\n                // If we don't need the file anymore we could manually call the cleanupCallback \n                // But that is not necessary if we didn't pass the keep option because the library \n                // will clean after itself. \n            } catch (e) {\n                cleanupCallback();\n                cb(e);\n            }\n        });\n};",
+			"settings":
+			{
+				"buffer_size": 2393,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 798,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node-praat-script.sublime-project",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1759,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"beauti",
+				"Javascript Beautify"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"syntax docker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inen",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ine",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Javascript Beautify"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"ssjsx",
+				"Set Syntax: JavaScript (JSX)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Moti Z/Documents/GitHub/node-praat-script/src/index.js",
+		"/C/Users/Moti Z/Documents/GitHub/react-draggable/package.json",
+		"/C/Users/Moti Z/Documents/GitHub/praat-script/dist/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/acapela-voices.js",
+		"/C/Users/Moti Z/Dropbox/Work/דוחות שעות/פברואר 2015/שעות עבודה מוטי - StreamItUp פברואר 2015.csv",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio-voicemod/VoiceModApp/Dockerfile",
+		"/C/Users/Moti Z/Dropbox/Work/דוחות שעות/פברואר 2015/שעות עבודה מוטי - VivoText פברואר 2015.csv",
+		"/C/Users/Moti Z/Dropbox/Work/דוחות שעות/פברואר 2015/שעות עבודה מוטי - Kinedio פברואר 2015.csv",
+		"/C/Users/Moti Z/Dropbox/Work/דוחות שעות/פברואר 2015/שעות עבודה מוטי - Leviticus פברואר 2015.csv",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/Gulpfile.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/rx-child-process.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/performance-logger.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/.env",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend-server/.env",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/user-communication-worker/worker.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/workflows/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/error.log",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/er",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/dist/release/web-content/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/node_modules/_/error.log",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend-server/workflows/render-and-download/kickoff.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/aws-shared/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/VideoCreatorStores/ExportStore.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/start-all.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/canvas-pixels.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/.env",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend-server/package.json",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/notification-poller.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/package.json",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/auth/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/index.html",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/crosstab-notification-poller.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/aws-shared/package.json",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/dist/release/scripts/app/index-migrate.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/cognito-middleware/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-migrate.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/auth/Authentication.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/handlers/App.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/.env",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/handlers/Login.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/handlers/VideoCreator.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/handlers/Home.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/handlers/Export.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend-server/auth-and-sessions.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend-server/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend-server/workflows/render-and-download/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/auth/cognito.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/auth/Login.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/dev/app-routes.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/VideoCreatorStores/CurrentVideoStore.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/VideoCreatorActions.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-stores/NotificationStore.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/PopupNotificationsView.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-actions.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/handlers/AppFrame.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/components/react-jsonview.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/dev/react-jsonview-test.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/react1.html",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/dist/release/scripts/dev/react-jsonview-test.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/react-stuff.html",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/styles/app/index-migrate.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/styles/styles.less",
+		"/C/Users/Moti Z/Dropbox/Work/react-jsonview/react-jsonview.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/Footer.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/leviticus/leviticus/src/Watch/leviticus/core/inc/UnitConversionRatios.h",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/KinedioAnimationView.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/AcapelaSpeakersDropdown.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/js/app-bar.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/AcapelaLanguagesDropdown.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/acapela-data.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/ColorPickerWithLabel",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/SpeakersDropdown.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/LanguagesDropdown.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/FontsDropdown.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/render.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/web-content/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/RenderWorkerDebugView.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/error.log",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/package.json",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/render-worker-nwjs/out.bin",
+		"/C/Users/Moti Z/Dropbox/Work/leviticus/leviticus/src/ExtDevice/drivers/rf/cc1101.h",
+		"/C/Users/Moti Z/Dropbox/Work/leviticus/leviticus/src/ExtDevice/drivers/rf/cc1101.c",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/ts/rx.all.d.ts",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/average.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/groupbyuntil.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/forkjoin.js",
+		"/C/Users/Moti Z/Documents/GitHub/react-slider/react-slider.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/window.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/using.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/takewhile.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/sample.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/partition.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/join.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/buffer.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/dematerialize.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/linq/observable/expand.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/src/core/observable.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/rx/ts/rx.d.ts",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/acapela.js",
+		"/C/Users/Moti Z/Documents/GitHub/material-ui/src/js/menu.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/react-spectrum-color-picker.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/spectrum/spectrum.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/AspectContainer.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/js/drop-down-menu.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/spectrum/package.json",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/js/menu.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/less/components/menu.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/styles.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/styles/app/spectrum-custom.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/styles/app/index.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/styles/app/cube-grid-custom.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/js/icon.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/js/drop-down-icon.jsx",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/react-spinkit/css/three-bounce.css",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/material-ui/src/less/components/drop-down-menu.less",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/react-spinkit/css/cube-grid.css",
+		"/C/Users/Moti Z/Documents/GitHub/react-slider/package.json",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/javascript-detect-element-resize/detect-element-resize.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/spectrum/spectrum.css",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/node_modules/element-resize-event/index.js",
+		"/C/Users/Moti Z/Dropbox/Work/Kinedio/frontend/scripts/app/index-components/react-colorplane-port.jsx",
+		"/C/Users/Moti Z/Dropbox/chordprojs2/test/spec/lib/transpose.js",
+		"/C/Users/Moti Z/Dropbox/chordprojs2/test/spec/components/PrettyChordItem.js",
+		"/C/Users/Moti Z/Dropbox/chordprojs2/src/styles/LyricsChordsLine.less",
+		"/C/Users/Moti Z/Dropbox/chordprojs2/src/scripts/bidi.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"render-worker-nwjs/**/*",
+			"",
+			"frontend/**/*.*",
+			"frontend",
+			"*.js;*.jsx",
+			"*.*",
+			"",
+			"*.js",
+			"*.json",
+			"*.js",
+			"C:\\dev\\pango-1.29.4\\pango",
+			"*.h,*.cc",
+			"",
+			"C:\\dev\\pango-1.29.4\\pango",
+			".",
+			"c:\\gtk\\include\\",
+			"c:\\gtk\\include\\freetype2\\freetype",
+			"c:\\gtk\\include\\freetype2\\",
+			"*.js,*.cc,*.h,*.c",
+			"*.js",
+			"<open folders>\\*.cc;*.c;*.h;*.js",
+			"*.cc;*.c;*.h;*.js",
+			"<open folders>",
+			"*.h;*.cc",
+			"C:\\Users\\Moti Z\\Dropbox\\Work\\Kinedio",
+			"*.js;*.jsx",
+			"*.js",
+			"*.jsx",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"praatScript.formatArgument",
+			"simulate",
+			"simulate =",
+			"simulate:",
+			"simulate",
+			"onTouchEnd",
+			"onTouchStart",
+			"TouchStart",
+			"onTouchStart",
+			"props(",
+			"props",
+			"touchStart",
+			"onTouchStart",
+			"events",
+			"handle",
+			"mousedown(",
+			"onMouseDown",
+			"onMouseDown(",
+			"onmousedown",
+			"onmouse",
+			"onmousedown",
+			"stream",
+			"writeToStream",
+			"writeto",
+			"rxc",
+			"ffstderr",
+			"ffstdout",
+			"spawn",
+			"exit",
+			"'error'",
+			"child_io",
+			"names",
+			"ffmpeg",
+			"timeout",
+			"on('",
+			"on(",
+			"stderr",
+			"oncomplet",
+			"writeto",
+			"framebuffers",
+			"writetostream",
+			"frames",
+			"password",
+			"ACAPELA",
+			"setenv",
+			"dotenv",
+			"setenv",
+			"process.env",
+			"dotenv",
+			"tapon",
+			".renderbundle(",
+			".renderbundle",
+			"perfst",
+			"foreach",
+			"workdir",
+			".catch",
+			"renderBundle",
+			"renderBundleToFile",
+			"flatmap",
+			".flatmap",
+			"renderbundletofile",
+			"renderBundleToFile",
+			".just",
+			"parsebundle",
+			"return ",
+			"parsebundle",
+			"renderbundle",
+			"renderbundletofile",
+			"dir",
+			"failed",
+			"here",
+			"offender",
+			"code",
+			"=>",
+			"ffmpeg_stdio_complete_callbacks",
+			"out",
+			"passthr",
+			"stream",
+			".on",
+			"on(",
+			"handoffframe",
+			"renderAllFramesAsync",
+			"then",
+			"promise",
+			"activityPoller",
+			"promise",
+			"performancelogger",
+			".renderbundle",
+			"perfStats",
+			"perfstats",
+			"renderbundle",
+			"renderBundle",
+			"config",
+			"stamp",
+			"time",
+			"awsswf",
+			"'",
+			"bundler.transform('",
+			"reactify",
+			"node-less",
+			"aliasify",
+			"swf",
+			"notificationpoller",
+			"wat",
+			"cognito",
+			"IdentityPoolId",
+			"east",
+			"token",
+			"region",
+			"cognito",
+			"env",
+			"cognito",
+			"notification",
+			"cogni",
+			"busy",
+			"setupqueued",
+			"setupQueued",
+			"busy",
+			"waiting",
+			"CurrentVideoStore",
+			"listen",
+			"completed",
+			"coreaction",
+			"currentv",
+			"reflux",
+			"currentAnimationBundle",
+			"animationbundle:",
+			"updated"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"ExpandableNodeList",
+			"JsonNode",
+			"Node",
+			"Styles",
+			"keyIdentifier",
+			"ObjectNode",
+			"ArrayNode",
+			"AppFrame",
+			"VideoCreator",
+			"Speakers",
+			"reactController",
+			"reactController.connectedView",
+			"Move",
+			"props.defaultValue",
+			"props.value",
+			"Chordprojs",
+			"soundAcapelaSourceData",
+			"const char** families",
+			"_buffer",
+			"HarfBuzzTextRenderer",
+			"harfbuzz_state_t",
+			"HarfBuzzTextRenderer",
+			"outputContext()",
+			"context",
+			"_rootSurface",
+			"canvas_dir_t",
+			"_layout",
+			"",
+			"DIR",
+			"dir =",
+			"CrosstabNotificationPoller",
+			"(",
+			"",
+			"() => {",
+			"(",
+			"this._currentAudio",
+			"this.props.animationBundle",
+			"this._animPrevTimestamp",
+			"this._animPrevTime",
+			"this._animStartTime",
+			"this._animStartTime\nthis._animationBundle\nthis._animationBundle",
+			"this._animationBundle",
+			"playPosition",
+			"seeking",
+			"KinedioAnimationView",
+			"options",
+			"Value",
+			"Values",
+			"this._propOrState",
+			"speaker",
+			"language",
+			"font",
+			"function (",
+			"userStateChange",
+			"React",
+			"className="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/praat-script.js",
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX-real.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.js",
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX-real.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/run.js",
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"auto_name": "'use strict';",
+							"syntax": "Packages/JSX/JSX-real.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/test.js",
+					"settings":
+					{
+						"buffer_size": 3003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var assert = require(\"assert\")",
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test/mocha.opts",
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mocha.opts",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/format-argument.js",
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX-real.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/run-with.js",
+					"settings":
+					{
+						"buffer_size": 2510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX-real.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 2393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JSX/JSX-real.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "node-praat-script.sublime-project",
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.973262032086,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"testutils",
+				"node_modules/react-tools/src/test/ReactTestUtils.js"
+			],
+			[
+				"error.log",
+				"node_modules/_/error.log"
+			],
+			[
+				"render.js",
+				"render-worker-nwjs/render.js"
+			],
+			[
+				"gulpfile.js",
+				"frontend/Gulpfile.js"
+			],
+			[
+				"exportstore",
+				"frontend/scripts/app/VideoCreatorStores/ExportStore.js"
+			],
+			[
+				"aws-s",
+				"aws-shared/index.js"
+			],
+			[
+				"package.json",
+				"frontend-server/package.json"
+			],
+			[
+				"crosstab-no",
+				"frontend/scripts/app/crosstab-notification-poller.js"
+			],
+			[
+				"aws-shared",
+				"aws-shared/index.js"
+			],
+			[
+				"cognito-middlew",
+				"cognito-middleware/index.js"
+			],
+			[
+				"frontend/index.js",
+				"frontend/scripts/app/index.js"
+			],
+			[
+				"export.jsx",
+				"frontend/scripts/app/handlers/Export.jsx"
+			],
+			[
+				"videoc",
+				"frontend/scripts/app/handlers/VideoCreator.jsx"
+			],
+			[
+				"appbar",
+				"frontend/node_modules/material-ui/src/js/app-bar.jsx"
+			],
+			[
+				"cc1101.h",
+				"leviticus/src/ExtDevice/drivers/rf/cc1101.h"
+			],
+			[
+				"cc1101",
+				"leviticus/src/ExtDevice/drivers/rf/cc1101.c"
+			],
+			[
+				"index-migrate.less",
+				"frontend/styles/app/index-migrate.less"
+			],
+			[
+				"transpose",
+				"src/scripts/lib/transpose.js"
+			],
+			[
+				"chordprojs2",
+				"src/scripts/components/Chordprojs2App.js"
+			],
+			[
+				"decider/index",
+				"render-decider/index.js"
+			],
+			[
+				"web-content",
+				"render-worker-nwjs/web-content/index.js"
+			],
+			[
+				"index-migr",
+				"frontend/scripts/app/index-migrate.jsx"
+			],
+			[
+				"package-base",
+				"package-base.json"
+			],
+			[
+				"frontend-server/package",
+				"frontend-server/package.json"
+			],
+			[
+				"user/package.json",
+				"user-notifications/package.json"
+			],
+			[
+				"serialization/pack",
+				"serialization/package.json"
+			],
+			[
+				"render-worker-nwjs/package.json",
+				"render-worker-nwjs/package.json"
+			],
+			[
+				"frontend/package.json",
+				"frontend/package.json"
+			],
+			[
+				"package-base.json",
+				"package-base.json"
+			],
+			[
+				"index.html",
+				"render-worker-nwjs/index.html"
+			],
+			[
+				"stuff.js",
+				"render-worker/stuff.js"
+			],
+			[
+				"stuff",
+				"render-worker/stuff.js"
+			],
+			[
+				"pixirenderer",
+				"frontend/scripts/app/index-components/PixiRenderer.jsx"
+			],
+			[
+				"reactpixirenderer",
+				"frontend/scripts/app/index-components/PixiRenderer.jsx"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"package-b",
+				"package-base.json"
+			],
+			[
+				"gulpfile",
+				"render-worker-phantomjs/Gulpfile.js"
+			],
+			[
+				"canvas-text-m",
+				"frontend/node_modules/canvas-text-metrics-polyfill/dist/canvas-text-metrics-polyfill.js"
+			],
+			[
+				"polyfill",
+				"frontend/node_modules/canvas-text-metrics-polyfill/src/canvas-text-metrics-polyfill.js"
+			],
+			[
+				"tests",
+				"test/public/tests.js"
+			],
+			[
+				"tests.js",
+				"test/public/tests.js"
+			],
+			[
+				"binding",
+				"binding.gyp"
+			],
+			[
+				"textren",
+				"src/TextRenderer.h"
+			],
+			[
+				"te",
+				"src/TextRenderer.cc"
+			],
+			[
+				"cairo",
+				"src/CairoTextRenderer.cc"
+			],
+			[
+				"makef",
+				"Makefile"
+			],
+			[
+				"cairot",
+				"src/CairoTextRenderer.h"
+			],
+			[
+				"pango",
+				"src/PangoTextRenderer.h"
+			],
+			[
+				"canvasre",
+				"src/CanvasRenderingContext2d.h"
+			],
+			[
+				"textre",
+				"src/TextRenderer.h"
+			],
+			[
+				"pangotext",
+				"src/PangoTextRenderer.cc"
+			],
+			[
+				"server.js",
+				"test/server.js"
+			],
+			[
+				"font.js",
+				"examples/font.js"
+			],
+			[
+				"makefile",
+				"Makefile"
+			],
+			[
+				"canvas.h",
+				"src/Canvas.h"
+			],
+			[
+				"canvas.test",
+				"test/canvas.test.js"
+			],
+			[
+				"canvas",
+				"render-worker/canvas-monkeypatch.js"
+			],
+			[
+				"canvas-mo",
+				"render-video/canvas-monkeypatch.js"
+			],
+			[
+				"kinedioanimationview",
+				"frontend/scripts/app/index-components/KinedioAnimationView.jsx"
+			],
+			[
+				"render-worker",
+				"render-worker/render.js"
+			],
+			[
+				"json-unb",
+				"serialization/json-unbuilder.js"
+			],
+			[
+				"pixi.dev",
+				"animation-shared/pixi.dev.js"
+			],
+			[
+				"pixiext",
+				"animation-shared/pixiext.js"
+			],
+			[
+				"index.less",
+				"frontend/styles/app/index.less"
+			],
+			[
+				"jshintrc",
+				"frontend/.jshintrc"
+			],
+			[
+				"jshintr",
+				"animation-shared/.jshintignore"
+			],
+			[
+				"gulpf",
+				"frontend/Gulpfile.js"
+			],
+			[
+				"kickoff",
+				"frontend-server/workflows/render-and-download/kickoff.js"
+			],
+			[
+				"unbuild",
+				"serialization/json-unbuilder.js"
+			],
+			[
+				"index.jsx",
+				"frontend/scripts/app/index-migrate.jsx"
+			],
+			[
+				"json-unbuilder",
+				"serialization/json-unbuilder.js"
+			],
+			[
+				"positionsyncactor.js",
+				"animation-shared/PositionSyncActor.js"
+			],
+			[
+				"notification-poller.js",
+				"frontend/scripts/app/notification-poller.js"
+			],
+			[
+				"positionsync",
+				"animation-shared/PositionSyncActor.js"
+			],
+			[
+				"user-not",
+				"user-notifications/index.js"
+			],
+			[
+				"rekapiext",
+				"animation-shared/rekapiext.js"
+			],
+			[
+				"aws-h",
+				"aws-shared/index.js"
+			],
+			[
+				"shiftye",
+				"animation-shared/shiftyext.js"
+			],
+			[
+				"notific",
+				"frontend/scripts/app/notification-poller.js"
+			],
+			[
+				"json-unbuil",
+				"serialization/json-unbuilder.js"
+			],
+			[
+				"json",
+				"serialization/json-builder-ext.js"
+			],
+			[
+				"textactor",
+				"animation-shared/TextActor.js"
+			],
+			[
+				"camera",
+				"animation-shared/CameraActor.js"
+			],
+			[
+				"acapela.js",
+				"frontend/scripts/app/acapela.js"
+			],
+			[
+				"kinedioani",
+				"frontend/scripts/app/index-components/KinedioAnimationView.jsx"
+			],
+			[
+				"filtera",
+				"frontend/scripts/app/index-components/FilterableValueSelect.jsx"
+			],
+			[
+				"rekapi.js",
+				"animation-shared/rekapi.js"
+			],
+			[
+				"index-migra",
+				"frontend/scripts/app/index-migrate.jsx"
+			],
+			[
+				"cognito-",
+				"cognito-middleware/package.json"
+			],
+			[
+				"cognito-mi",
+				"cognito-middleware/index.js"
+			],
+			[
+				"unpack",
+				"frontend/index-migrate.browser-unpack"
+			],
+			[
+				"json-builder",
+				"serialization/json-builder-ext.js"
+			],
+			[
+				"promise-de",
+				"lib/promise-debug.js"
+			],
+			[
+				".jshintrc",
+				"frontend/.jshintrc"
+			],
+			[
+				"sound",
+				"frontend/scripts/lib/soundjs-0.6.0.combined.js"
+			],
+			[
+				"anim",
+				"frontend/scripts/app/KinedioAnimationView.jsx"
+			],
+			[
+				"index",
+				"frontend-server/index.js"
+			],
+			[
+				"index-mig",
+				"frontend/scripts/app/index-migrate.jsx"
+			],
+			[
+				"index.js",
+				"frontend-server/index.js"
+			],
+			[
+				".jsx",
+				"frontend/scripts/app/index-components/react-jquery-nouislider.jsx"
+			],
+			[
+				"abu",
+				"animation-shared/AnimationBundle.js"
+			],
+			[
+				"slider",
+				"/C/Users/Moti Z/Documents/GitHub/react-slider/react-slider.js"
+			],
+			[
+				"react-slider.js",
+				"/C/Users/Moti Z/Documents/GitHub/react-slider/react-slider.js"
+			],
+			[
+				"start-all",
+				"start-all.js"
+			],
+			[
+				"server",
+				"frontend-server/index.js"
+			],
+			[
+				"react-pi",
+				"frontend/scripts/app/index-components/react-pixi.jsx"
+			],
+			[
+				"react-pixi",
+				"frontend/scripts/app/index-components/react-pixi.jsx"
+			],
+			[
+				"frontend.js",
+				"frontend-server/frontend.js"
+			],
+			[
+				"index-mi",
+				"frontend/scripts/app/index-migrate.jsx"
+			],
+			[
+				"tend.js",
+				"frontend-server/frontend.js"
+			],
+			[
+				"index-migrate.js",
+				"frontend/scripts/app/index-migrate.js"
+			],
+			[
+				"deps.txt",
+				"frontend/deps.txt"
+			],
+			[
+				"nouisil",
+				"frontend/scripts/lib/jquery.nouislider.all.js"
+			],
+			[
+				"pixi.de",
+				"animation-shared/pixi.dev.js"
+			],
+			[
+				"pixi",
+				"animation-shared/pixi.js"
+			],
+			[
+				"less",
+				"frontend/styles/less/react1.less"
+			],
+			[
+				"jsx",
+				"frontend/scripts/components/AppLeftNav.jsx"
+			],
+			[
+				"routs",
+				"frontend/scripts/dev/app-routes.jsx"
+			],
+			[
+				"home.jsx",
+				"frontend/scripts/dev/pages/home.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}
