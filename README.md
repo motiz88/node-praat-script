@@ -88,7 +88,7 @@ npm test
 ```
 ```
 
-> praat-script@0.1.0 test node-praat-script
+> praat-script@0.1.1 test node-praat-script
 > mocha
   praat-script module
     #formatArgument()
