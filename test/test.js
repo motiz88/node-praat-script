@@ -21,16 +21,16 @@ describe('praat-script module', function() {
 
     describe('template string', function() {
         it('should escape arguments correctly via praatScript`...`', () => {
-            assert.equal(`""`, praatScript`${''}`);
-            assert.equal(`"1"`, praatScript`${'1'}`);
-            assert.equal(`"true"`, praatScript`${'true'}`);
+            assert.equal(`""`, praatScript `${''}`);
+            assert.equal(`"1"`, praatScript `${'1'}`);
+            assert.equal(`"true"`, praatScript `${'true'}`);
 
-            assert.equal('0', praatScript`${(0)}`);
-            assert.equal('0.5', praatScript`${(0.5)}`);
-            assert.equal('-0.5', praatScript`${(-0.5)}`);
+            assert.equal('0', praatScript `${(0)}`);
+            assert.equal('0.5', praatScript `${(0.5)}`);
+            assert.equal('-0.5', praatScript `${(-0.5)}`);
 
-            assert.equal('0', praatScript`${(false)}`);
-            assert.equal('1', praatScript`${(true)}`);
+            assert.equal('0', praatScript `${(false)}`);
+            assert.equal('1', praatScript `${(true)}`);
         });
     });
 
@@ -45,9 +45,9 @@ describe('praat-script module', function() {
             `, done);
         });
         it('should run a template string script successfully', (done) => {
-        	var freq = 880;
-        	var name = "theTone";
-            praatScript.run(praatScript`
+            var freq = 880;
+            var name = "theTone";
+            praatScript.run(praatScript `
             	Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
             	Play
             `, done);
@@ -56,27 +56,70 @@ describe('praat-script module', function() {
 
 });
 
-describe('template script instance', function() {
+describe('template script source', function() {
     var praatScript = require('../src');
 
     describe('#run()', function() {
         it('should run an empty script successfully', (done) => {
-            praatScript``.run(done);
+            praatScript ``.run(done);
         });
         it('should run a simple script successfully', (done) => {
-            praatScript`
+            praatScript `
             	Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
             	Play
             `.run(done);
         });
         it('should run a template string script successfully', (done) => {
-        	var freq = 880;
-        	var name = "theTone";
-            praatScript`
+            var freq = 880;
+            var name = "theTone";
+            praatScript `
             	Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
             	Play
             `.run(done);
         });
+    });
+
+});
+
+describe('running script instance', function() {
+    var praatScript = require('../src');
+
+    describe('#abort()', function() {
+        it('should abort an empty script successfully', (done) => {
+            praatScript ``.run(err => {
+                assert((err instanceof Error) && /abort/i.test(err));
+                done();
+            }).abort();
+        });
+        it('should abort a simple script successfully', (done) => {
+            praatScript `
+                Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
+                Play
+            `.run(err => {
+                assert((err instanceof Error) && /abort/i.test(err));
+                done();
+            }).abort();
+        });
+
+        it('should delayed-abort a simple script successfully', (done) => {
+            var script = praatScript `
+                Create Sound as pure tone: "tone", 1, 0, 0.5, 44100, 440, 0.2, 0.01, 0.01
+                Play
+            `.run(err => {
+                assert((err instanceof Error) && /abort/i.test(err));
+                done();
+            });
+            setTimeout(() => script.abort(), 250);
+        });
+
+        it('should delayed-abort a simple script successfully with a long delay', (done) => {
+            var script = praatScript `
+                Create Sound as pure tone: "tone", 1, 0, 0.5, 44100, 440, 0.2, 0.01, 0.01
+                Play
+            `.run(done);
+            setTimeout(() => script.abort(), 2500);
+        });
+
     });
 
 });
