@@ -32,6 +32,9 @@ describe('praat-script module', function() {
             assert.equal('0', praatScript `${(false)}`);
             assert.equal('1', praatScript `${(true)}`);
         });
+        it('should not double-escape PraatScript instances`...`', () => {
+            assert.equal('1', praatScript `${praatScript `${(true)}`}`);
+        });
     });
 
     describe('#run()', function() {

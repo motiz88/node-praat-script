@@ -12,6 +12,9 @@ var PraatScript = function PraatScript(script) {
 PraatScript.prototype.toString = function() {
   return this._script;
 };
+PraatScript.prototype.toPraatCode = function() {
+  return this._script;
+};
 PraatScript.prototype.run = function(cb) {
   return run(this, cb);
 };

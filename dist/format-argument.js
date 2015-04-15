@@ -9,7 +9,10 @@ module.exports = function formatArgument(value) {
     case 'boolean':
       return value ? formatArgument(1) : formatArgument(0);
     default:
-      return formatArgument(value.toString());
+      if (value && typeof value.toPraatCode === 'function')
+        return value.toPraatCode().toString();
+      else
+        return formatArgument(value.toString());
   }
 };
 //# sourceMappingURL=format-argument.js.map
