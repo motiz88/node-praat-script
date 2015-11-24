@@ -26,6 +26,7 @@
   "devDependencies": {
     "mocha": "^2.2.1",
     "mocha-traceur": "^2.1.0",
-    "traceur": "0.0.87"
+    "traceur": "0.0.87",
+    "praat": "^6.0.7"
   }
 }
