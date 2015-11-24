@@ -1,6 +1,6 @@
 {
   "name": "praat-script",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Generate and run Praat scripts from Node.js.",
   "main": "dist/index.js",
   "scripts": {
