@@ -56,7 +56,7 @@ module.exports = function runWith(praatExec, script, cb) {
                                         throw new Error('Aborted by caller');
                                     var stdout = '';
                                     var stderr = '';
-                                    praat = child_process.spawn(praatExec, [path], {
+                                    praat = child_process.spawn(praatExec, ['--run', path], {
                                         stdio: ['ignore', 'ignore', 'ignore']
                                     });
                                     praat.on('close', function(err) {
