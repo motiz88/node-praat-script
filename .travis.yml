@@ -5,6 +5,8 @@ node_js:
   - "4.0"
   - "0.12"
   - "iojs"
-before_install:  
-  - sudo apt-get update -qq
-  - sudo apt-get install -y libgtk2.0.0 libasound2
+addons:
+  apt:
+    packages:
+    - libgtk2.0.0
+    - libasound2
