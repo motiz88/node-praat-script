@@ -3,6 +3,11 @@
 var child_process = require('child_process');
 var tmp = require('tmp');
 var fs = require('fs');
+function castError(err) {
+  if (err instanceof Error)
+    return err;
+  return new Error('Error ' + err);
+}
 module.exports = function runWith(praatExec, script, cb) {
   if (!cb)
     cb = function() {};
@@ -28,19 +33,19 @@ module.exports = function runWith(praatExec, script, cb) {
           fs.unlink(path);
         };
         if (err)
-          throw err;
+          throw castError(err);
         if (aborted)
           throw new Error('Aborted by caller');
         fs.write(fd, script.toString(), 0, 'utf8', function(err) {
           try {
             if (err)
-              throw err;
+              throw castError(err);
             if (aborted)
               throw new Error('Aborted by caller');
             fs.close(fd, function(err) {
               try {
                 if (err)
-                  throw err;
+                  throw castError(err);
                 if (aborted)
                   throw new Error('Aborted by caller');
                 var stdout = '';
@@ -50,7 +55,7 @@ module.exports = function runWith(praatExec, script, cb) {
                   praat = null;
                   try {
                     if (err)
-                      throw err;
+                      throw castError(err);
                     if (stderr && stderr.length > 0)
                       throw new Error(stderr.toString('utf8'));
                     if (aborted)
