@@ -106,8 +106,8 @@ describe('running script instance', function() {
 
         it('should delayed-abort a simple script successfully', (done) => {
             var script = praatScript `
-                Create Sound as pure tone: "tone", 1, 0, 0.5, 44100, 440, 0.2, 0.01, 0.01
-                Play
+                while 1
+                endwhile
             `.run(err => {
                 assert((err instanceof Error) && /abort/i.test(err));
                 done();
