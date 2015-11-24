@@ -21,7 +21,7 @@
     "tmp": "0.0.25"
   },
   "optionalDependencies": {
-    "praat": "^5.4.6-5"
+    "praat": "^6.0.5"
   },
   "devDependencies": {
     "mocha": "^2.2.1",
