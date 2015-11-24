@@ -8,6 +8,6 @@ node_js:
 addons:
   apt:
     packages:
-    - libgtk2.0.0
+    - libgtk2.0-0
     - libasound2
 sudo: false
