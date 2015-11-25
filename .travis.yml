@@ -7,6 +7,8 @@ node_js:
   - "iojs"
 addons:
   apt:
+    sources:
+      - ubuntu-toolchain-r-test
     packages:
     - libgtk2.0-0
     - libasound2

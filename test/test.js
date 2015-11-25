@@ -90,10 +90,10 @@ describe('running script instance', function() {
     describe('#abort()', function() {
         it('should abort an empty script successfully', (done) => {
             praatScript ``.run(err => {
-                if (!(err instanceof Error) && /abort/i.test(err))
-                    done(err);
-                else
+                if (!err || (err instanceof Error && /abort/i.test(err.message)))
                     done();
+                else
+                    done(err);
             }).abort();
         });
         it('should abort a simple script successfully', (done) => {
@@ -101,10 +101,10 @@ describe('running script instance', function() {
                 Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
                 Play
             `.run(err => {
-                if (!(err instanceof Error) && /abort/i.test(err))
-                    done(err);
-                else
+                if (!err || (err instanceof Error && /abort/i.test(err.message)))
                     done();
+                else
+                    done(err);
             }).abort();
         });
 
@@ -113,10 +113,10 @@ describe('running script instance', function() {
                 while 1
                 endwhile
             `.run(err => {
-                if (!(err instanceof Error) && /abort/i.test(err))
-                    done(err);
-                else
+                if (!err || (err instanceof Error && /abort/i.test(err.message)))
                     done();
+                else
+                    done(err);
             });
             setTimeout(() => script.abort(), 250);
         });
