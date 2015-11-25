@@ -10,8 +10,8 @@ addons:
     sources:
       - ubuntu-toolchain-r-test
     packages:
-    - libgtk2.0-0
-    - libasound2
-    - libpulse0
-    - libstdc++6    
+      - libgtk2.0-0
+      - libasound2
+      - libpulse0
+      - libstdc++6>=4.9
 sudo: false
