@@ -44,7 +44,7 @@ describe('praat-script module', function() {
         it('should run a simple script successfully', (done) => {
             praatScript.run(`
             	Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
-            	Play
+            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
             `, done);
         });
         it('should run a template string script successfully', (done) => {
@@ -52,7 +52,7 @@ describe('praat-script module', function() {
             var name = "theTone";
             praatScript.run(praatScript `
             	Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
-            	Play
+            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
             `, done);
         });
     });
@@ -69,7 +69,7 @@ describe('template script source', function() {
         it('should run a simple script successfully', (done) => {
             praatScript `
             	Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
-            	Play
+            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
             `.run(done);
         });
         it('should run a template string script successfully', (done) => {
@@ -77,7 +77,7 @@ describe('template script source', function() {
             var name = "theTone";
             praatScript `
             	Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
-            	Play
+            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
             `.run(done);
         });
     });
@@ -99,7 +99,7 @@ describe('running script instance', function() {
         it('should abort a simple script successfully', (done) => {
             praatScript `
                 Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
-                Play
+                Praat test: "TimeRandomFraction", "50000000", "", "", ""
             `.run(err => {
                 if (!err || (err instanceof Error && /abort/i.test(err.message)))
                     done();
@@ -118,15 +118,15 @@ describe('running script instance', function() {
                 else
                     done(err);
             });
-            setTimeout(() => script.abort(), 250);
+            setTimeout(() => script.abort(), 100);
         });
 
         it('should delayed-abort a simple script successfully with a long delay', (done) => {
             var script = praatScript `
-                Create Sound as pure tone: "tone", 1, 0, 0.5, 44100, 440, 0.2, 0.01, 0.01
-                Play
+                while 1
+                endwhile
             `.run(done);
-            setTimeout(() => script.abort(), 2500);
+            setTimeout(() => script.abort(), 1000);
         });
 
     });
