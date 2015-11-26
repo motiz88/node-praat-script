@@ -18,15 +18,18 @@
   },
   "homepage": "https://github.com/motiz88/node-praat-script",
   "dependencies": {
+    "rxjs": "^5.0.0-alpha.10",
     "tmp": "0.0.25"
   },
   "optionalDependencies": {
     "praat": "^6.0.9"
   },
   "devDependencies": {
-    "mocha": "^2.2.1",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.4",
     "mocha-traceur": "^2.1.0",
     "praat": "^6.0.9",
-    "traceur": "0.0.87"
+    "traceur": "0.0.92"
   }
 }

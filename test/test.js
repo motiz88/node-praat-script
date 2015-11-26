@@ -1,4 +1,8 @@
-var assert = require("assert")
+var assert = require("assert");
+var chai = require('chai');
+chai.use(require('chai-as-promised'));
+
+chai.should();
 describe('praat-script module', function() {
     var praatScript = require('../src');
 
@@ -44,7 +48,7 @@ describe('praat-script module', function() {
         it('should run a simple script successfully', (done) => {
             praatScript.run(`
             	Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
-            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
+            	Praat test: "TimeRandomFraction", "5000000", "", "", ""
             `, done);
         });
         it('should run a template string script successfully', (done) => {
@@ -52,11 +56,49 @@ describe('praat-script module', function() {
             var name = "theTone";
             praatScript.run(praatScript `
             	Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
-            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
+            	Praat test: "TimeRandomFraction", "5000000", "", "", ""
             `, done);
         });
     });
 
+    describe('#run() - Observable version', function() {
+        it('should run an empty script successfully', () => {
+            return praatScript.run('').toPromise();
+        });
+        it('should run a simple script successfully', () => {
+            return praatScript.run(`
+                Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
+                Praat test: "TimeRandomFraction", "5000000", "", "", ""
+            `).toPromise();
+        });
+        it('should run a template string script successfully', () => {
+            var freq = 880;
+            var name = "theTone";
+            return praatScript.run(praatScript `
+                Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
+                Praat test: "TimeRandomFraction", "5000000", "", "", ""
+            `).toPromise();
+        });
+
+        it('should support aborting via unsubscribe', (done) => {
+            var script = praatScript `
+                while 1
+                endwhile
+            `.run();
+            var sub = script.subscribe(res => {
+                done(new Error('No output should be produced by this script instance'));
+            }, err => {
+                done(err);
+            }, () => {
+                done(new Error('This script instance should terminate without notifying, since it was aborted'));
+            });
+            
+            setTimeout(() => {
+                sub.unsubscribe();
+                setImmediate(() => done());
+            }, 750);
+        });        
+    });
 });
 
 describe('template script source', function() {
@@ -69,7 +111,7 @@ describe('template script source', function() {
         it('should run a simple script successfully', (done) => {
             praatScript `
             	Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
-            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
+            	Praat test: "TimeRandomFraction", "5000000", "", "", ""
             `.run(done);
         });
         it('should run a template string script successfully', (done) => {
@@ -77,8 +119,28 @@ describe('template script source', function() {
             var name = "theTone";
             praatScript `
             	Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
-            	Praat test: "TimeRandomFraction", "50000000", "", "", ""
+            	Praat test: "TimeRandomFraction", "5000000", "", "", ""
             `.run(done);
+        });
+    });
+
+    describe('#run() - Observable version', function() {
+        it('should run an empty script successfully', () => {
+            return praatScript ``.run().toPromise();
+        });
+        it('should run a simple script successfully', () => {
+            return praatScript `
+                Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
+                Praat test: "TimeRandomFraction", "5000000", "", "", ""
+            `.run().toPromise();
+        });
+        it('should run a template string script successfully', () => {
+            var freq = 880;
+            var name = "theTone";
+            return praatScript `
+                Create Sound as pure tone: ${name}, 1, 0, 0.1, 44100, ${freq}, 0.2, 0.01, 0.01
+                Praat test: "TimeRandomFraction", "5000000", "", "", ""
+            `.run().toPromise();
         });
     });
 
@@ -99,7 +161,7 @@ describe('running script instance', function() {
         it('should abort a simple script successfully', (done) => {
             praatScript `
                 Create Sound as pure tone: "tone", 1, 0, 0.1, 44100, 440, 0.2, 0.01, 0.01
-                Praat test: "TimeRandomFraction", "50000000", "", "", ""
+                Praat test: "TimeRandomFraction", "5000000", "", "", ""
             `.run(err => {
                 if (!err || (err instanceof Error && /abort/i.test(err.message)))
                     done();
@@ -125,7 +187,12 @@ describe('running script instance', function() {
             var script = praatScript `
                 while 1
                 endwhile
-            `.run(done);
+            `.run(err => {
+                if (!err || (err instanceof Error && /abort/i.test(err.message)))
+                    done();
+                else
+                    done(err);
+            });
             setTimeout(() => script.abort(), 1000);
         });
 
