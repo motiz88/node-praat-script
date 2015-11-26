@@ -28,4 +28,3 @@ node_modules
 .lock-wscript
 
 .sublime-workspace
-dist/
