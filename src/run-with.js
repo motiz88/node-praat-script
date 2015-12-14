@@ -1,5 +1,7 @@
 'use strict';
 
+require('traceur-runtime');
+
 var child_process = require('child_process');
 var tmp = require('tmp');
 var fs = require('fs');

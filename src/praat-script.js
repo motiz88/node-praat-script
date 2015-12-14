@@ -1,5 +1,7 @@
 'use strict';
 
+require('traceur-runtime');
+
 var formatArgument = require('./format-argument');
 var run = require('./run');
 var runWith = require('./run-with');
