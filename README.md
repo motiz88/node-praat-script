@@ -1,5 +1,7 @@
 # praat-script 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/motiz88/node-praat-script.svg)](https://greenkeeper.io/)
+
 Generate and run [Praat](http://www.fon.hum.uva.nl/praat) scripts from Node.js.
 
 ## Installation

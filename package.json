@@ -19,7 +19,7 @@
   "homepage": "https://github.com/motiz88/node-praat-script",
   "dependencies": {
     "rxjs": "^5.0.0-alpha.10",
-    "tmp": "0.0.25",
+    "tmp": "0.0.31",
     "traceur-runtime": "0.0.59"
   },
   "optionalDependencies": {
@@ -27,10 +27,10 @@
   },
   "devDependencies": {
     "chai": "^3.4.1",
-    "chai-as-promised": "^5.1.0",
-    "mocha": "^2.3.4",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
     "mocha-traceur": "^2.1.0",
     "praat": "^6.0.9",
-    "traceur": "0.0.92"
+    "traceur": "0.0.111"
   }
 }
